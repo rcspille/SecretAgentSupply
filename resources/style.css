@@ -93,5 +93,48 @@ nav .page-width{
 nav a{
   text-decoration: none;
   color: white;
-  font-weight: normal;
+}
+
+/* FEATURED PRODUCTS */
+#featured-products{
+  width: 100%;
+}
+
+#featured-products .page-width{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+#featured-products .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: 4px solid black;
+}
+
+#featured-products .item .thumbnail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+#featured-products img.portrait{
+  height: 100%;
+}
+
+#featured-products img.landscape{
+  width: 100%;
+}
+
+#featured-products h4{
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: black;
+  color: white;
 }
