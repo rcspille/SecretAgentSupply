@@ -138,3 +138,29 @@ nav a{
   background-color: black;
   color: white;
 }
+
+/* Hours and Location */
+#hours-location{
+  width: 100%;
+}
+
+#hours-location .page-width{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+#hours-location .box{
+  width: 35%;
+}
+
+#hours-location h4.black-bar{
+  padding: 1rem 2rem;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
+#hours-location h4{
+  font-weight: normal;
+}
